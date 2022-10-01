@@ -127,6 +127,14 @@ SENSOR_TYPES = [
         state_class=SensorStateClass.MEASUREMENT,
     ),
     SensorEntityDescription(
+        key="wallbox_imported_power",
+        name="Wallbox Imported Power",
+        native_unit_of_measurement=POWER_WATT,
+        icon="mdi:car-arrow-right",
+        device_class=SensorDeviceClass.POWER,
+        state_class=SensorStateClass.MEASUREMENT,
+    ),
+    SensorEntityDescription(
         key="wallbox_ev_connected",
         name="Wallbox EV Connected",
         icon="mdi:car-electric",
