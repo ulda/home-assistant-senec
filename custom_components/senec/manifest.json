@@ -5,11 +5,11 @@
   "documentation": "https://github.com/mchwalisz/home-assistant-senec/blob/master/README.md",
   "issue_tracker": "https://github.com/mchwalisz/home-assistant-senec/issues",
   "requirements": [
-    "pysenec @ git+https://github.com/ulda/pysenec.git@ulda"
+      "git+https://github.com/ulda/pysenec.git@ulda#pysenec==0.2.0.post1"
   ],
   "dependencies": [],
   "codeowners": [
-    "@mchwalisz"
+      "@mchwalisz", "@ulda"
   ],
   "iot_class": "local_polling",
   "version": "2.0.0"
